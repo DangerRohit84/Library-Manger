@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { User, Booking, Seat } from '../types';
 import { SeatMap } from './SeatMap';
-import { fetchSeats, fetchBookings, createBooking, cancelBooking } from '../services/api';
+import { fetchSeats, fetchBookings, createBooking, cancelBooking } from "../src/services/api";
 import { format, addDays, addHours, isSameDay } from 'date-fns';
 import { Calendar, Clock, LogOut, CheckCircle2, History, XCircle, AlertCircle } from 'lucide-react';
 
