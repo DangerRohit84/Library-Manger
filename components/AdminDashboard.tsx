@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { User, Booking, Seat, SeatType } from '../types';
 import { SeatMap } from './SeatMap';
-import {
-  fetchUsers,
-  fetchSeats,
-  fetchBookings,
-  updateUser,
-  updateSeat,
-  deleteSeat
-} from '../services/api';
+import { fetchUsers, fetchSeats, fetchBookings, updateUser, updateSeat, deleteSeat } from "../src/services/api";
 import {
   LayoutDashboard, Users, Armchair, LogOut, Ban, CheckCircle,
   Pencil, Save, RotateCw, Trash2, Monitor, BookOpen,
